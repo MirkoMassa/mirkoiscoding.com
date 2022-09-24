@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #AACCA8;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #659D62;
+    width: auto;
+    min-height: 50px;
+    height: 100px; 
+    overflow: hidden;
+  }
+  #nav-div{
+    opacity: 0;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #socials-div{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: right;
+  }
+  
+  
+  #icon {
+    flex: 1;
+    background: url(D:\Coding\personal-website\src\assets\icon.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .nav-button {
+    color: #263238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 20px 5px 20px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+  }
+  .nav-button::before{
+    content: "";
+    height: 4px;
+    width: 0%;
+    background-color: #263238;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  .nav-button:hover::before{
+      width: 100%
+  }
+  
+  .nav-social{
+    cursor: pointer;
+    user-select: none;
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+  }
+  #gh{
+    background: url(D:\Coding\personal-website\src\assets\navbar_icons\github.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #ig{
+    background: url(D:\Coding\personal-website\src\assets\navbar_icons\instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #ln{
+    background: url(D:\Coding\personal-website\src\assets\navbar_icons\linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #tg{
+    background: url(D:\Coding\personal-website\src\assets\navbar_icons\telegram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #hamburger{
+    
+    flex: 1;
+    background: url(D:\Coding\personal-website\src\assets\hamburger.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media all and (max-width: 400px){
+
+    #socials-div{
+      align-self: top;
+    }
+    #hamburger{
+      display: inline-block;
+
+    }
+    
+    nav{
+      background:#AACCA8;
+      
+    }
+    #icon{
+      display: none;
+    }
+    #nav-div{
+      display: none;
+    }
+
+  }
