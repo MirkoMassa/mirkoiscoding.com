@@ -15,7 +15,6 @@ body{
     overflow: hidden;
   }
   #nav-div{
-    opacity: 0;
     margin: 0;
     padding-left: 0;
     list-style: none;
@@ -32,7 +31,6 @@ body{
     justify-content: right;
   }
   
-  
   #icon {
     flex: 1;
     background: url(D:\Coding\personal-website\src\assets\icon.svg);
@@ -41,7 +39,6 @@ body{
     height: 100px;
     width: 100px;
     cursor: pointer;
-    opacity: 0;
   }
   
   .nav-button {
@@ -74,7 +71,6 @@ body{
     user-select: none;
     height: 100px;
     width: 100px;
-    opacity: 0;
   }
   #gh{
     background: url(D:\Coding\personal-website\src\assets\navbar_icons\github.svg);

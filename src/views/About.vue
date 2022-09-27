@@ -8,7 +8,7 @@
         <ul id = "nav-div">
             <a href="/" class = "nav-button" style="text-decoration:none;">home</a>
             <a href="/about" class = "nav-button" style="text-decoration:none;">about</a>
-            <a href="" class = "nav-button" style="text-decoration:none;">cv</a>
+            <a href="D:\Coding\personal-website\src\assets\curriculum.pdf" class = "nav-button" style="text-decoration:none;">cv</a>
         </ul>
 
         <div id="socials-div">

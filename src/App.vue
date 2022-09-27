@@ -8,7 +8,7 @@ import CSSRulePlugin from "gsap/CSSRulePlugin";
 gsap.registerPlugin(CSSRulePlugin);
 
 document.addEventListener('DOMContentLoaded', () => {
-    gsap.to(["#nav-div",".nav-social", "#icon", '#rect', '#ab-container'], 
+    gsap.to(['#rect', '#ab-container'], 
     {
         opacity: 1,
         duration: 1,
